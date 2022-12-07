@@ -1,7 +1,7 @@
-<nav x-data="{ open: false }">
+<nav x-data="{ open: false }" class="">
     <!-- Primary Navigation Menu -->
-    <div>
-        <div>
+    <div class="">
+        <div class="">
             <div class="flex">
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
