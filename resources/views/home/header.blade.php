@@ -40,7 +40,7 @@
 
                         <li class="nav-item">
                            <x-app-layout>
-                              
+                           
                            </x-app-layout>                       
                         </li>
 

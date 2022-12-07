@@ -2,21 +2,30 @@
     <!-- Primary Navigation Menu -->
     <div class="">
         <div class="">
-            <div class="flex">
+            {{-- Sinéad  please add the below inline css to the css file  --}}
+            <div class="flex" style="background-color:rgb(255, 255, 255);">
                 <!-- Logo -->
-                <div class="shrink-0 flex items-center">
+
+                {{-- Sinéad i have commented out the below to remove the logo and background  --}}
+
+                
+                {{-- <div class="shrink-0 flex items-center">
                     <a href="{{ route('dashboard') }}">
                         <x-jet-application-mark class="block h-9 w-auto" />
                     </a>
-                </div>
+                </div> --}}
 
                 <!-- Navigation Links -->
-                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+
+                
+
+
+                {{-- <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-jet-nav-link>
                 </div>
-            </div>
+            </div> --}}
 
             <div class="hidden sm:flex sm:items-center sm:ml-6">
                 <!-- Teams Dropdown -->
