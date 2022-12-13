@@ -4,12 +4,17 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use App\Models\User;
+
+//Linking products to index
+use\App\Models\Product;
 
 class HomeController extends Controller
 {
     public function index () 
     {
-        return view('home.userpage');
+        $product=Product::paginate(3);
+        return view('home.userpage',compact('product'));
     }
 
 
